@@ -20,7 +20,8 @@ namespace day2emailsender
             mailer mr= new mailer();
             bool res=mr.SendMyEmail(email, sub, msg);
             if (res == true)
-            {
+            { 
+                // this line prints debug log
                 Console.WriteLine("email sended successfully");
             }
             else
